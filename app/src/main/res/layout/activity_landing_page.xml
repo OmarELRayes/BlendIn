@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.blendin.LandingPageActivity">
+    <ImageView
+        android:src="@drawable/kappa2"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="180dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6f6ae8"
+        android:alpha=".3"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerInside"
+        android:padding="25dp"
+        android:layout_marginTop="50dp"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_below="@id/logo"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="40dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/header1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="It's time for a "
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/header2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change !"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:id="@+id/header3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="meet new people that shares your interests\nand discover new places."
+            android:layout_margin="10dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/sign_up_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:background="@drawable/signup_btn_shape"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:onClick="openSignup"/>
+    <Button
+        android:id="@+id/sign_in_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:background="@drawable/signin_btn_shape"
+        android:layout_marginBottom="15dp"
+        android:textColor="#6f6ae8"
+        android:layout_above="@id/sign_up_btn"
+        android:onClick="openSignIn"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="take a tour"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"/>
+
+</RelativeLayout>

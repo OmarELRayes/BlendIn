@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <corners
+        android:bottomRightRadius="30dp"
+        android:topRightRadius="30dp"
+        android:bottomLeftRadius="30dp"
+        android:topLeftRadius="30dp"
+        />
+    <solid
+        android:color="#6f6ae8"
+        />
+    <padding
+        android:left="0dp"
+        android:top="0dp"
+        android:right="0dp"
+        android:bottom="0dp"
+        />
+    <size
+        android:width="200dp"
+        android:height="50dp"
+        />
+</shape>
