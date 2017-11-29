@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="blendin.blendin">
+=======
+    package="com.example.android.blendin">
+>>>>>>> 13e7da6a311727e4fa8d22b370a17b56a0c1a38c
 
     <application
         android:allowBackup="true"
@@ -9,7 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".Splach">
+=======
+        <activity android:name=".LandingPageActivity">
+>>>>>>> 13e7da6a311727e4fa8d22b370a17b56a0c1a38c
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,9 +25,16 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".get_stared"
             android:theme="@style/AppTheme" />
         <activity android:name=".Register"></activity>
+=======
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SignInActivity"></activity>
+>>>>>>> 13e7da6a311727e4fa8d22b370a17b56a0c1a38c
     </application>
 
 </manifest>

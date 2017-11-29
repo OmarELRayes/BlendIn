@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Blendin.iml" filepath="$PROJECT_DIR$/Blendin.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/BlendIn.iml" filepath="$PROJECT_DIR$/BlendIn.iml" />
+>>>>>>> 13e7da6a311727e4fa8d22b370a17b56a0c1a38c
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
